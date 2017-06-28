@@ -1,8 +1,62 @@
-/*My Portfolio CSS*/
+/* Header */
+
+.header {
+	background-color: white;
+	margin-top: 5px;
+	width: 100%;
+}
 
 .name {
-	text-align: center;
+	display: inline;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color: #022b39;
+	font-size: 32px;
+}
+
+nav{
+    display:inline;
+    float:right;
+}
+
+nav ul{
+    list-style:none;
+}
+
+
+nav ul li{
+    display:inline-block;
+}
+
+a {
+	text-decoration: none;
+	text-align: right;
+	color: #022b39;
+	font-size: 16px;
+	font-family: Helvetica, sans-serif;
 	text-transform: uppercase;
+
+}
+
+/* Welcome Section */
+
+.welcome {
+	background-color: #022b39;
+	text-align: center;
 	color: white;
-	font-family: Garamond;
+	padding: 20px;
+	margin-top: 15px;
+}
+
+hr {
+	color: white;
+	width: 50%;
+}
+
+.intro {
+	font-family: "Lobster", serif;
+	font-size: 50px
+}
+
+.magento {
+	font-family: Helvetica, sans-serif;
 }
